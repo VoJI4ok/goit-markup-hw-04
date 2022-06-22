@@ -109,19 +109,15 @@ color: #2196F3;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
-        margin-left: 10px;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
        
 }
 .header-contacts:hover,.header-contacts:focus{color: #2196F3;}
 
-.header-contacts-link{
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    color: #757575;
- 
-}
-.header-contacts-link:hover,.header-contacts-link:focus{ color: #2196F3;}
+
+
 
 .header-connect{
     margin-left: auto;
@@ -130,10 +126,11 @@ color: #2196F3;
     
 }
 
-
+.header-contacts-span{margin-left: 10px;}
 
 .header-contacts-icon{
     fill:currentColor;
+    
 }
 /*----------------MAIN------------------*/
 .main-title{
