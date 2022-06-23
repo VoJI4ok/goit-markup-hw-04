@@ -394,12 +394,8 @@ color: #212121;
 
 .clients-list{
     display: flex;
-    
 }
 
-.clients-list-item{
-
-}
 .clients-list-item:first-child{margin-left: 0px;}
 
 .clients-link{
@@ -421,7 +417,7 @@ align-items: center;
 .clients-link:hover,.clients-link:focus{
     fill: #2196F3;border-color: #2196F3;
 }
-.clients-list-item:hover,.clients-list-item:focus{border-color: #2196F3; }
+
 
 /*------------------------------FOOTER---------------------------*/
 .footer {
