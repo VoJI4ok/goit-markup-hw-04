@@ -45,16 +45,22 @@ body {
 .header{
     background-color: #ffffff;
     border: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 .header-nav{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
-
-
+.header-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
 
 
 .header-logo{
@@ -115,8 +121,6 @@ color: #2196F3;
 .header-connect{
     margin-left: auto;
     display: flex;
-    align-items: center;
-    
 }
 
 .header-contacts-span{margin-left: 10px;}
@@ -153,7 +157,7 @@ padding-right: 235px;*/
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main_bg.png);
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: 1600px 600px;
+    background-size: cover ;
     background-position: 50% 50%;
     
 }
@@ -390,10 +394,15 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 50px;
 }
 
 .clients-list{
     display: flex;
+}
+
+.clients-list-item{
+    margin-left: 30px;
 }
 
 .clients-list-item:first-child{margin-left: 0px;}
@@ -404,8 +413,6 @@ width: 170px;
 height: 92px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-margin-top: 50px;
-margin-left: 30px;
 justify-content: center;
 align-items: center;
 }
